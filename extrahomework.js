@@ -5,11 +5,11 @@
 */
 
 let gender
-let male
-let female
+let male = "male"
+let female = "female"
 let isMale = true
 
-gender = isMale ? male : female
+gender = isMale ? gender= male : gender = female
 console.log("its a " + gender)
 
 
@@ -54,7 +54,18 @@ console.log(concatenation) // "string165"
  Display the result in the console.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let a = 5
+let b = 60
+let c = 100
+
+if( a > b && a > c && b > c ) { console.log( a, b, c)}
+if( a > b && a > c && b < c ) { console.log( a, c, b)}
+if( a < b && a > c && b > c ) { console.log( b, a, c)}
+if( a < b && a < c && b > c ) { console.log( b, c, a)}
+if( a > b && a < c && b < c ) { console.log( c, a, b)}
+if( a < b && a < c && b < c ) { console.log( c, b, a)}
+
+
 
 /* EXTRA 5
  Write a piece of code for finding the average of two given integers.
@@ -77,6 +88,7 @@ let longestString = " "
 string1.length > string2.length ? longestString=string1 : longestString=string2
 
 console.log(longestString)
+
 /* EXTRA 7
  Write a piece of code for checking if a given value is a integer or not.
 */
