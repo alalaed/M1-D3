@@ -94,9 +94,10 @@ console.log(longestString)
 */
 
 let integer = 8
-let end = parseInt (integer)
-if(end===NaN){console.log("not an integer")}
-else{console.log("is an integer")}
+if(typeof integer === "number") {
+    console.log("is an integer")
+
+}else {console.log("is not an integer")}
 
 /* EXTRA 8
  Write a piece of code for calculating a certain percentage of a given number.
