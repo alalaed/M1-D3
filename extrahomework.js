@@ -113,9 +113,9 @@ console.log(percentage)
  Write a piece of code for checking if a given number is even or odd.
 */
 
-const number = 29
+let number = 28
 
-const isEven = number % 2 === 0
+let isEven = number % 2 === 0
 
 if (isEven) {
     console.log("Number is even")
